@@ -11,7 +11,8 @@ require_once __DIR__ . '/bootstrap.php';
     <title>Document</title>
 </head>
 <body>
-    <h1>Init</h1>
-
+    <a href="index.php?url=Main">Index</a>
+    <a href="index.php?url=About">About</a>
+    <a href="index.php?url=Contacts">Contacts</a>
 </body>
 </html>
