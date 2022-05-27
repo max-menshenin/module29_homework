@@ -30,11 +30,12 @@ class Route
         if (file_exists($controller_path)) {
             include "application/controllers/" . $controller_file;
         } else {
-
+            var_dump($controller_name);
             Route::ErrorPage404();
         }
         var_dump($controller_path);
         // создаем контроллер
+
         $controller = new $controller_name;
         $action = $action_name;
         if (method_exists($controller, $action)) {
