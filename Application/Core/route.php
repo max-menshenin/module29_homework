@@ -43,7 +43,7 @@ class Route
             $controller->$action();
 
         } else {
-            var_dump($action);
+            //var_dump($action);
             Route::ErrorPage404();
         }
     }
