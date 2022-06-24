@@ -5,4 +5,3 @@ require_once 'Application/core/controller.php';
 require_once 'Application/core/route.php'; 
 Route::start(); // запускаем маршрутизатор
 ?>
-
