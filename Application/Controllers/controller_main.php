@@ -1,9 +1,10 @@
 <?php
 
-class controller_main extends Controller
+class Controller_Main extends Controller
 {
-    function action_index()
-    {
-        $this->view->generate('main_view.php', 'template_view.php');
-    }
+
+	function action_index()
+	{	
+		$this->view->generate('main_view.php', 'template_view.php');
+	}
 }
